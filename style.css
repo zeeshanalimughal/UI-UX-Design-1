@@ -478,7 +478,7 @@ transform: scale(1.4);
 
 
 
-/* Box 1 style end here */
+/* Box 2 style end here */
 
 .container .box2{
    
@@ -588,14 +588,6 @@ transform: scale(1.4);
     transform: translate(-50%,-50%);
     z-index: -1;
 }
-
-
-
-
-
-
-
-
 .carousel {
     position: absolute;
     top: 0;
@@ -607,36 +599,6 @@ transform: scale(1.4);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
     border-radius: 30px;
   }
-  /* .carousel:hover .controls {
-    opacity: 1;
-  }
-  .carousel .controls {
-    opacity: 0;
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    justify-content: space-between;
-    width: 100%;
-    z-index: 99999;
-    transition: all ease 0.5s;
-  }
-  .carousel .controls .control {
-    margin: 0 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.7);
-    opacity: 0.5;
-    transition: ease 0.3s;
-    cursor: pointer;
-  }
-  .carousel .controls .control:hover {
-    opacity: 1;
-  } */
   .carousel .slides {
     position: absolute;
     top: 0;
@@ -652,9 +614,6 @@ transform: scale(1.4);
     object-position: top;
     
   }
-
-
-
   .container .box2 .box .content-section{
       margin-top: 2.5rem;
       padding: .5rem 2rem;
@@ -815,6 +774,9 @@ transform: scale(1.4);
   border-radius: 14px;
   background: linear-gradient(135deg,#ADA5D5,#8676B5);
 cursor: pointer;
+}
+  .container .box2 .box .content-section  .add-to-catr-btn .btn span{
+  margin-left: 1.5rem;
 }
 
 
